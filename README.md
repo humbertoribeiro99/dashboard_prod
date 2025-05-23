@@ -1,12 +1,42 @@
-# React + Vite
+# Dashboard de Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um painel de produtividade feito com **React** + **Vite**, usando **Zustand** para gerenciamento de estado, **TailwindCSS** para estilos e **Recharts** para gráficos.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adicionar tarefas para o dia selecionado no calendário
+- Marcar tarefas como concluídas
+- Visualizar tarefas por data
+- Gráfico de produtividade (tarefas concluídas vs. pendentes)
+- Tema escuro/claro (persistente)
+- Interface responsiva
 
-## Expanding the ESLint configuration
+## Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Zustand
+- TailwindCSS
+- Recharts
+- React Calendar
+
+## Como rodar
+
+1. Clone o repositório:
+   ```sh
+   git clone <url-do-repo>
+   cd dashboard-prod
+
+2. Instale as dependências:
+   ```bash
+   npm install
+
+3. Rode o projeto:
+   ```bash
+   npm run dev
+
+Acesse http://localhost:5173 no navegador
+
+---
+
+Projeto para fins de estudo e demonstração
